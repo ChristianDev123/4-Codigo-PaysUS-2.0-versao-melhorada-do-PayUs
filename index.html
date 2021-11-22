@@ -8,6 +8,10 @@
 </head>
 
 <body>
+    <div id="aviso">
+        <p> [AVISO] Antes de acessar a página é importante constar que na época em que fiz o site não sabia utilizar select para fazer uma caixa de seleção com valores pré-definidos.</p> 
+        <p> Os valores possíveis são: Falcão e Soldado invernal, Friends, Stranger Things e Cidade Invisível. </p>
+    </div>
     <div class="container">
         <h1 class="page-title">
             Netflix, Amazon Prime, Disney+ PAGA NÓIS 2.0
@@ -16,13 +20,12 @@
             Qual sua Série Favorita?
         </h2>
         <div class="form-wrapper">
-            <input type="text" id="serie" name="serie" placeholder="Insira o nome da série">
-          <button onClick="selecionarSerie()">Buscar Serie</button>
+            <input type="text" id="serie" name="serie" placeholder="Insira o nome da série" autocomplete="off">
+            <button onclick="selecionarSerie()">Buscar Serie</button>
+        </div>
     </div>
     <div id="listaSeries">.
     </div>
-    </a>
-    <script src="/javaScript/script.js"></script>
+    <script src="javaScript/script.js"></script>
 </body>
-
 </html>
